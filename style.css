@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Special+Gothic+Expanded+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -58,7 +60,7 @@ html,body{
 }
 
 .color-azul{
-    color: #1B3B56;
+    color: #2E4C2B;
 }
 
 .color-azul-1{
@@ -103,7 +105,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #D9D9D9;
+    background: #F8F5F0;
 }
 
 img{
@@ -113,21 +115,19 @@ img{
 
 button{
     padding: 10px 20px;
-    background: #ff0000;
-    color: #fff;
+    background: #2E4C2B;
+    color: #F8F5F0;
     font-size: 14px;
     border: none;
     cursor: pointer;
-    transition: 0.8s ease;
-    margin-bottom: 20px;
+    transition: 0.09s ease;
     margin-right: 20px;
+    margin-top: 5px;
 }
 
 button:hover{
-    border: 1px solid #00e70c;
-    background: #00e70c;
-    color: #fff;
-    transform: scale(1.10);
+    background: #C9B478;
+    color: #F8F5F0;
 }
 
 .content{
@@ -149,12 +149,12 @@ button:hover{
     flex-direction: column;
     margin-top: 40px;
     text-shadow: 0 0 10px #545454;
-    color: #1B3B56;
+    color: #2E4C2B;
 }
 .line{
     width: 80%;
     height: 2px;
-    background: #17203F;
+    background: #2E4C2B;
     position: relative;
     top: 40px;
 }
@@ -167,8 +167,8 @@ button:hover{
     text-align: center;
     width: 200px;
     font-size: 18px;
-    background: #1B3B56;
-    color: #fff;
+    background: #2E4C2B;
+    color: #F8F5F0;
 }
 
 .down{
@@ -201,7 +201,7 @@ button:hover{
     align-items: center;
     justify-content: space-between;
     padding: 0 2%;
-    background:#1B3B56;
+    background:#2E4C2B;
 }
 
 .logo{
@@ -219,7 +219,7 @@ button:hover{
     bottom: 2px;
     right: 10px;
     padding: 5px 10px;
-    background: #1B3B56;
+    background: #2E4C2B;
 }
 
 body::-webkit-scrollbar {
@@ -227,13 +227,13 @@ body::-webkit-scrollbar {
 }
   
 body::-webkit-scrollbar-track {
-    background: #fff;
+    background: #F8F5F0;
 }
   
 body::-webkit-scrollbar-thumb {
     background-color:#2B2B2B;
     border-radius: 20px;
-    border: 1px solid #fff;
+    border: 1px solid #F8F5F0;
 }
 
 /* #### desktop-menu #### */
@@ -248,17 +248,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 .desktop-menu ul li a{
-    color:#dffaff;
-    text-shadow: 0 0 5px #1ed7f8;
+    color:#F8F5F0;
+    text-shadow: 0 0 5px #8A9A5B;
     font-size: 23px;
     font-weight: 300;
     text-decoration: none;
-    transition: 0.8s ease;
+    transition: 0.2s ease;
 }
 
 .desktop-menu ul li a:hover{
-    color:#8B634A;
-    text-shadow: 0 0 5px #8B634A;
+    color:#C9B478;
+    text-shadow: 0 0 5px #C9B478;
     font-weight: 400;
     text-decoration: underline;
 }
@@ -270,7 +270,7 @@ body::-webkit-scrollbar-thumb {
     height: auto;
     position: absolute;
     top: 5px;
-    background: #1B3B56;
+    background: #2E4C2B;
     display: none;
 }
 
@@ -279,7 +279,7 @@ body::-webkit-scrollbar-thumb {
     right: 25px;
     top: 10px;
     font-size: 23px;
-    color: #fff;
+    color: #F8F5F0;
     cursor: pointer;
 }
 
@@ -296,13 +296,13 @@ body::-webkit-scrollbar-thumb {
 .mobile-menu ul li a{
     text-decoration: none;
     font-weight: 600;
-    color:#fff;
+    color:#F8F5F0;
     text-shadow: 0 0 5px #848790;
 }
 
 .mobile-menu ul li a:hover{
-    color:#8B634A;
-    text-shadow: 0 0 5px #8B634A;
+    color:#C9B478;
+    text-shadow: 0 0 5px #C9B478;
     font-weight: 500;
     text-decoration: underline;
 }
@@ -322,20 +322,36 @@ header .left{
 }
 
 header .left h1{
-    text-align: start;
+    font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
-    text-shadow: 0 0 5px #848790;
+    font-style: normal;
+    text-align: start;
+    text-shadow: 0 0 2px 	#2E4C2B;
     padding: 0 40px;
 }
 
 header .left p{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-weight: 400;
     text-align: start;
     letter-spacing: 2px;
-    text-shadow: 0 0 5px #848790;
+    text-shadow: 0 0 2px 	#2E4C2B;
     margin-top: 60px;
     padding: 0 40px;
+}
+header .left em{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-weight: 400;
+    text-align: right;
+    letter-spacing: 2px;
+    text-shadow: 0 0 2px 	#2E4C2B;
+    margin-top: 50px;
+    padding: 0 40px;
+    font-size: 16px
 }
 
 header button{
@@ -418,7 +434,7 @@ header .right .imagem img{
 
 #Service .box{
     width: 80%;
-    background: #fff;
+    background: #F8F5F0;
 }
 
 #Service .box img{
@@ -520,14 +536,14 @@ header .right .imagem img{
 #Contact .container .left .box{
     width: 100%;
     height: 50vh;
-    background: #1B3B56;
+    background: #2E4C2B;
     border-radius: 12px;
 }
 
 #Contact .container .left .box h1{
     margin-bottom: 1px;
     margin-top: 5px;
-    color: white;
+    color: #F8F5F0;
 }
 
 #Contact .container .left .box form{
@@ -547,7 +563,7 @@ header .right .imagem img{
 }
 
 #Contact .container .left .box .social{
-    color: white;
+    color: #F8F5F0;
     font-size: 32px;
 }
 
@@ -559,12 +575,12 @@ header .right .imagem img{
 }
 
 #Contact .container .left .box .social i:hover{
-    color: #8B634A;
+    color: #C9B478;
 }
 
 #Contact .container .left .box form input[type=submit]{
-    background-color: #8B634A;
-    color: white;
+    background-color: #C9B478;
+    color: #F8F5F0;
     cursor: pointer;
     transition: 0.3s ease;
 }
@@ -576,7 +592,7 @@ header .right .imagem img{
 #Contact .container .right .box{
     width: 100%;
     height: 50vh;
-    background: #1B3B56;
+    background: #2E4C2B;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -595,7 +611,7 @@ header .right .imagem img{
 #Contact .container .right .box .icons i{
     padding: 20px 0;
     font-size: 32px;
-    color: white;
+    color: #F8F5F0;
 }
 
 
@@ -611,13 +627,13 @@ header .right .imagem img{
     padding: 25px 0;
     font-size:16px;
     font-weight: 600;
-    color: white;
+    color: #F8F5F0;
 }
 
 #Contact .container .right .box h1{
     margin-bottom: 1px;
     margin-top: 50px;
-    color: white;
+    color: #F8F5F0;
 }
 
 #Contact .container .right{
@@ -643,7 +659,7 @@ footer .container{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: #1B3B56;
+    background: #2E4C2B;
 }
 
 footer .container img{
@@ -653,7 +669,7 @@ footer .container img{
 
 footer .container p{
     font-weight: 600;
-    color: #fff;
+    color: #F8F5F0;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
@@ -730,7 +746,7 @@ footer .container p{
         font-size: 18px;
         margin-top: 5px;
         margin-bottom:0;
-        color: #fff;
+        color: #F8F5F0;
     }
 
     .mobile-menu{
