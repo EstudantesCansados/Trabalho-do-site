@@ -12,6 +12,7 @@
 
 html,body{
     height: 100%;
+    background-color: #F5C5C5;
 }
 
 .max-width{
@@ -60,7 +61,7 @@ html,body{
 }
 
 .color-azul{
-    color: #1e1801;
+    color: #4B1919;
 }
 
 .color-azul-1{
@@ -105,7 +106,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f39708;
+    background: #753B3B;
 }
 
 img{
@@ -115,8 +116,8 @@ img{
 
 button{
     padding: 10px 20px;
-    background: #1e1801;
-    color: #f39708;
+    background: #4B1919;
+    color: #C8A6A6;
     font-size: 14px;
     border: none;
     cursor: pointer;
@@ -126,8 +127,8 @@ button{
 }
 
 button:hover{
-    background: #f39708;
-    color: #dacdac;
+    background: #753B3B;
+    color: #F5C5C5;
 }
 
 .content{
@@ -149,12 +150,12 @@ button:hover{
     flex-direction: column;
     margin-top: 40px;
     text-shadow: 0 0 10px #545454;
-    color: #1e1801
+    color: #4B1919
 }
 .line{
     width: 80%;
     height: 2px;
-    background: #1e1801;
+    background: #4B1919;
     position: relative;
     top: 40px;
 }
@@ -167,8 +168,8 @@ button:hover{
     text-align: center;
     width: 200px;
     font-size: 18px;
-    background: #1e1801;
-    color: #dacdac;
+    background: #4B1919;
+    color: #F5C5C5;
 }
 
 .down{
@@ -201,7 +202,7 @@ button:hover{
     align-items: center;
     justify-content: space-between;
     padding: 0 2%;
-    background:#1e1801;
+    background:#4B1919;
 }
 
 .logo{
@@ -219,7 +220,7 @@ button:hover{
     bottom: 2px;
     right: 10px;
     padding: 5px 10px;
-    background: #1e1801;
+    background: #4B1919;
 }
 
 body::-webkit-scrollbar {
@@ -227,13 +228,13 @@ body::-webkit-scrollbar {
 }
   
 body::-webkit-scrollbar-track {
-    background: #dacdac;
+    background: #F5C5C5;
 }
   
 body::-webkit-scrollbar-thumb {
-    background-color:#1e1801;
+    background-color:#4B1919;
     border-radius: 20px;
-    border: 1px solid #dacdac;
+    border: 1px solid #F5C5C5;
 }
 
 /* #### desktop-menu #### */
@@ -248,7 +249,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .desktop-menu ul li a{
-    color:#dacdac;
+    color:#F5C5C5;
     text-shadow: 0 0 5px #8A9A5B;
     font-size: 23px;
     font-weight: 300;
@@ -257,8 +258,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .desktop-menu ul li a:hover{
-    color:#f39708;
-    text-shadow: 0 0 5px #f39708;
+    color:#753B3B;
+    text-shadow: 0 0 5px #753B3B;
     font-weight: 400;
     text-decoration: underline;
 }
@@ -270,7 +271,7 @@ body::-webkit-scrollbar-thumb {
     height: auto;
     position: absolute;
     top: 5px;
-    background: #1e1801;
+    background: #4B1919;
     display: none;
 }
 
@@ -279,7 +280,7 @@ body::-webkit-scrollbar-thumb {
     right: 25px;
     top: 10px;
     font-size: 23px;
-    color: #dacdac;
+    color: #F5C5C5;
     cursor: pointer;
 }
 
@@ -296,13 +297,13 @@ body::-webkit-scrollbar-thumb {
 .mobile-menu ul li a{
     text-decoration: none;
     font-weight: 600;
-    color:#dacdac;
+    color:#F5C5C5;
     text-shadow: 0 0 5px #848790;
 }
 
 .mobile-menu ul li a:hover{
-    color:#f39708;
-    text-shadow: 0 0 5px #f39708;
+    color:#753B3B;
+    text-shadow: 0 0 5px #753B3B;
     font-weight: 500;
     text-decoration: underline;
 }
@@ -326,7 +327,7 @@ header .left h1{
     font-weight: 400;
     font-style: normal;
     text-align: start;
-    text-shadow: 0 0 2px 	#1e1801;
+    text-shadow: 0 0 2px 	#4B1919;
     padding: 0 40px;
 }
 
@@ -337,7 +338,7 @@ header .left p{
     font-weight: 400;
     text-align: start;
     letter-spacing: 2px;
-    text-shadow: 0 0 2px 	#1e1801;
+    text-shadow: 0 0 2px 	#4B1919;
     margin-top: 60px;
     padding: 0 40px;
 }
@@ -348,7 +349,7 @@ header .left em{
     font-weight: 400;
     text-align: right;
     letter-spacing: 2px;
-    text-shadow: 0 0 2px 	#1e1801;
+    text-shadow: 0 0 2px 	#4B1919;
     margin-top: 50px;
     padding: 0 40px;
     font-size: 16px
@@ -387,7 +388,7 @@ header .right .imagem img{
 }
 
 #About .box{
-    box-shadow: 0 5px 20px #2B2B2B;
+    box-shadow: 0 5px 20px #4B1919;
     background:transparent;
     margin-bottom: 120px;
 }
@@ -434,7 +435,7 @@ header .right .imagem img{
 
 #Service .box{
     width: 80%;
-    background: #dacdac;
+    background: #F5C5C5;
 }
 
 #Service .box img{
@@ -536,14 +537,14 @@ header .right .imagem img{
 #Contact .container .left .box{
     width: 100%;
     height: 50vh;
-    background: #1e1801;
+    background: #4B1919;
     border-radius: 12px;
 }
 
 #Contact .container .left .box h1{
     margin-bottom: 1px;
     margin-top: 5px;
-    color: #dacdac;
+    color: #F5C5C5;
 }
 
 #Contact .container .left .box form{
@@ -563,7 +564,7 @@ header .right .imagem img{
 }
 
 #Contact .container .left .box .social{
-    color: #dacdac;
+    color: #F5C5C5;
     font-size: 32px;
 }
 
@@ -575,24 +576,24 @@ header .right .imagem img{
 }
 
 #Contact .container .left .box .social i:hover{
-    color: #f39708;
+    color: #753B3B;
 }
 
 #Contact .container .left .box form input[type=submit]{
-    background-color: #f39708;
-    color: #dacdac;
+    background-color: #753B3B;
+    color: #F5C5C5;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
 #Contact .container .left .box form input[type=submit]:hover{
-    background: #faade0;
+    background: #855959
 }
 
 #Contact .container .right .box{
     width: 100%;
     height: 50vh;
-    background: #1e1801;
+    background: #4B1919;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -611,7 +612,7 @@ header .right .imagem img{
 #Contact .container .right .box .icons i{
     padding: 20px 0;
     font-size: 32px;
-    color: #dacdac;
+    color: #F5C5C5;
 }
 
 
@@ -627,13 +628,13 @@ header .right .imagem img{
     padding: 25px 0;
     font-size:16px;
     font-weight: 600;
-    color: #dacdac;
+    color: #F5C5C5;
 }
 
 #Contact .container .right .box h1{
     margin-bottom: 1px;
     margin-top: 50px;
-    color: #dacdac;
+    color: #F5C5C5;
 }
 
 #Contact .container .right{
@@ -659,7 +660,7 @@ footer .container{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: #1e1801;
+    background: #4B1919;
 }
 
 footer .container img{
@@ -669,7 +670,7 @@ footer .container img{
 
 footer .container p{
     font-weight: 600;
-    color: #dacdac;
+    color: #F5C5C5;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
@@ -746,7 +747,7 @@ footer .container p{
         font-size: 18px;
         margin-top: 5px;
         margin-bottom:0;
-        color: #dacdac;
+        color: #F5C5C5;
     }
 
     .mobile-menu{
