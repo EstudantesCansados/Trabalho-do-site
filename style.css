@@ -531,7 +531,8 @@ header .right .imagem img{
     margin-bottom: 60px;
 }
 
-#Contact .container .left{
+#Contact .container .left,
+#Contact .container .right{
     box-shadow: 0 0 15px #919191;
     margin: 2%;
 }
@@ -600,7 +601,6 @@ header .right .imagem img{
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-    
 }
 
 #Contact .container .right .box .icons{
@@ -634,14 +634,9 @@ header .right .imagem img{
 }
 
 #Contact .container .right .box h1{
-    margin-bottom: 1px;
+    margin-bottom: 10px;
     margin-top: 50px;
     color: #f0f0f0;
-}
-
-#Contact .container .right{
-    box-shadow: 0 0 15px #848790;
-    margin: 2%;
 }
 
 #Contact .titulo h2{
