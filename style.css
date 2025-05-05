@@ -25,7 +25,7 @@ html,body{
     height:auto;
     background-image: 
         linear-gradient(to right, rgba(0, 0, 0, 5), rgba(0, 0, 0, 0)),
-        url('imagenssite/fundo-3.jpg');
+        url('imagenssite/fundo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -209,7 +209,7 @@ button:hover{
 }
 
 .logo{
-    background: url('imagenssite/logo-YBA-fotor-bg-remover-copia.png') no-repeat;
+    background: url('imagenssite/logo-YBA.png') no-repeat;
     background-size: contain;
     width: 170px;
     height: 120px;
